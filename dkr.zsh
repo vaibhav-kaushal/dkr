@@ -141,10 +141,10 @@ function dkr() {
 			pr default "${funcstack[1]} rmlatest (rml)       Shows the latest image created and asks if you want to delete it"
 			pr default "${funcstack[1]} rlii)                Shows the latest image created and asks if you want to run it"
 			pr default "${funcstack[1]} elci)                Exec Latest-Launched Container in Interactive mode"
-                  pr default ""
-                  pr blue "Run '$0 help' to get this help."
-                  pr blue "Running $0 <command> where command is not in the above list will run 'docker <command>'."
-                  pr blue "    e.g. '$0 --help' will run 'docker --help'"
+			pr default ""
+			pr blue "Run '$0 help' to get this help."
+			pr blue "Running $0 <command> where command is not in the above list will run 'docker <command>'."
+			pr blue "    e.g. '$0 --help' will run 'docker --help'"
 			;; 
 		*) 
             if [ $# -ne 0 ]; then
